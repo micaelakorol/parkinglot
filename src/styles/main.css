@@ -1,0 +1,17 @@
+.main_container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 23% 60%);
+}
+
+@media (max-width:767px) {
+    .main_container{
+        grid-template-columns: repeat(2, 40% 60%);
+    }
+}
+
+@media (max-width:480px) {
+    .main_container{
+        grid-template-columns: repeat(2, 55% 45%);
+    }
+}
