@@ -27,6 +27,7 @@ const CloseVehicle = () => {
     const result = parkingLotState.parkingLot.removeVehicle(fieldClose.licensePlateClose);
     setAlert({ status: result.status, message: result.message });
     setFieldClose(initialFormStateClose);
+    setTotalPrice(0)
   };
 
   return (

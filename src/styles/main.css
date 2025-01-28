@@ -1,10 +1,11 @@
+/*contenedor padre en Main.jsx*/
 .main_container{
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 23% 60%);
+    grid-template-columns: repeat(2, 1fr);
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
     .main_container{
         grid-template-columns: repeat(2, 40% 60%);
     }
@@ -12,6 +13,12 @@
 
 @media (max-width:480px) {
     .main_container{
-        grid-template-columns: repeat(2, 55% 45%);
-    }
+        grid-template-columns: repeat(2, 50% 50%);
+    } 
+
 }
+
+@media (min-width: 1200px) {
+    .main_container {
+        grid-template-columns: repeat(2, 23% 60%);
+    }}
