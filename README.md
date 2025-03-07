@@ -1,10 +1,9 @@
-*En proceso de desarrollo*
 
-El objetivo de este proyecto, es crear un simulador de estacionamiento utilizando los principios de la Programación Orientada a Objetos (POO). 
-El sistema permite gestionar vehículos, incluyendo la adición, búsqueda y eliminación de vehículos, así como el cálculo de tarifas. 
+El objetivo de este proyecto, es crear un simulador de estacionamiento aplicando los principios de la Programación Orientada a Objetos (POO). 
+Este simulador permite gestionar vehículos, agregarlos, buscarlos, eliminarlos y calcular sus tarifas.
 
 Estructura del Proyecto:
-*Vehículo*: Representa un vehículo en el sistema, con atributos como patente y hora de ingreso.
+*Vehículo*: Representa un vehículo en el simulador, con atributos como patente y hora de ingreso.
 *Estacionamiento*: Representa el lugar donde se almacenan los vehículos y sus métodos para gestionarlos.
 
 ## Principales pilares de la Programación Orientada a Objetos Utilizados en este proyecto:
